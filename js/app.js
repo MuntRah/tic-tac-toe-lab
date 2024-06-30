@@ -19,6 +19,7 @@ elems.forEach((elem, index) => {
         count++;
       }
     }
+    // the if statements for the winning that if has these indexes then it will print in the message true so it will be stright line
     const val = event.target.innerText;
     arr[index] = val;
     if (arr[0] === "x" && arr[1] === "x" && arr[2] === "x") {
